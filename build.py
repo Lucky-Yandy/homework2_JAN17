@@ -10,7 +10,7 @@ my_blog= top + blog + bottom
 my_project =top + project + bottom
 my_contact = top + contact + bottom
 
-open('home_page.html','a+').write(home_page)
-open('blog.html','a+').write(my_blog)
-open('project.html','a+').write(my_project)
-open('contact.html','a+').write(my_contact)
+open('docs/index.html','w+').write(home_page)
+open('docs/blog.html','a+').write(my_blog)
+open('docs/project.html','a+').write(my_project)
+open('docs/contact.html','a+').write(my_contact)
